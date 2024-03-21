@@ -1,0 +1,350 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #020807;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator {
+    height: 60vh;
+    width: 400px;
+}
+
+button {
+
+    color: white;
+    height: 8vh;
+    width: 100px;
+    padding: 0%;
+    font-size: 1.5rem;
+    margin: -2px;
+    border-top: 1px solid black;
+    border-bottom: none;
+    border-left: 1px solid black;
+    border-right: none;
+
+}
+
+.operation {
+    background-color: #1F474B;
+
+}
+
+#displayfield {
+    background-color: #0A171C;
+    color: white;
+    border: none;
+    font-size: 4rem;
+    height: 30%;
+    width: 400px;
+    margin-left: -2px;
+
+}
+
+.col1 {
+    background-color: #030C0D;
+}
+
+.col2 {
+    background-color: #09151C;
+}
+
+.col3 {
+    background-color: #0A171C;
+
+}
+
+main {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    margin-top: 16vh;
+}
+
+#table-sec {
+    background-color: #09151C;
+    height: 40vh;
+    text-align: center;
+}
+
+.heading {
+    background-color: #09151C;
+    color: white;
+    font-size: 2rem;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+#table-btn {
+    width: 40vw;
+    width: 60vw;
+    margin: 20px;
+    background-color: #53ACA0;
+}
+
+#tableNum,
+#tableRange {
+    display: block;
+    width: 60vw;
+    height: 5vh;
+    margin: 15px 0px 0px 5vw;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    background-color: #53ACA0;
+}
+
+#table {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding-top: 25px;
+    background-color: #09151C;
+    line-height: 3rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #030C0D;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+}
+
+footer p {
+    background-color: #030C0D;
+    color: white;
+}
+
+footer a {
+    background-color: #020807;
+    color: #53ACA0;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 20vw;
+    height: 96%;
+    background-color: #09151C;
+    position: absolute;
+    margin-top: -2%;
+    left: -40vw;
+    padding-top: 45px;
+    transition: 0.7s;
+    top: 0%;
+    z-index: 1;
+}
+
+#sidebar a {
+    display: block;
+    background-color: #09151C;
+    color: #53ACA0;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 20px 0 30px 15px;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.fa-bars {
+    margin: 20px;
+    background-color: #53ACA0;
+    padding: 5px 7px;
+    border-radius: 2px;
+}
+
+nav {
+    display: inline-block;
+    width: 40px;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.fa-xmark {
+    float: right;
+    margin: 10px 10px;
+    display: block;
+    background-color: #53ACA0;
+
+}
+
+.age {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    border: 1px solid #0A171C;
+    margin-top: -10vh;
+    padding: 30px 40px 50px;
+    background-color: #09151C;
+    color: white;
+}
+
+.age h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #09151C;
+}
+
+.age-calculator button {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    width: 20vw;
+    border: 1px solid #030C0D;
+    height: 7vh;
+    border-radius: 4px;
+    margin: 20px auto;
+    background-color: #030C0D;
+}
+
+.age-calculator {
+    background-color: #09151C;
+}
+
+.age-calculator button:hover {
+    background-color: #1F474B;
+}
+
+#dob {
+    margin: 20px 6vw 0px;
+    width: 25vw;
+    background-color: #1F474B;
+    font-size: 1.3rem;
+    border: none;
+    padding: 6px;
+    cursor: text;
+    color: white;
+}
+
+.age-calculator label {
+    font-size: 1.5rem;
+    margin: 0px 6vw 0px;
+    background-color: #09151C;
+}
+
+#ageField {
+    margin: 0% 6.5vw;
+    width: 25vw;
+    background-color: #09151C;
+    padding: 6px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #0A171C;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
+}
+
+#equal-btn {
+    background-color: #479488;
+    width: 200px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+
+    #container {
+        width: 92%;
+    }
+
+    .calculator {
+        width: 100%;
+
+    }
+
+    #displayfield {
+        width: 100%;
+    }
+
+    button {
+        width: 25%;
+    }
+
+    .row {
+        width: 100%;
+
+    }
+
+    #equal-btn {
+        width: 50%;
+    }
+
+    nav {
+        width: fit-content;
+    }
+
+    #sidebar {
+        width: 40vw;
+    }
+
+    main {
+        width: 90%;
+        margin-top: 130px;
+    }
+
+    #tableNum,
+    #tableRange {
+        margin-left: 15vw;
+    }
+
+    #tableNum::placeholder,
+    #tableRange::placeholder {
+        font-size: 16px;
+    }
+
+    .age {
+        width: 70%;
+
+    }
+
+    #dob {
+        width: 75%;
+    }
+
+    .age-calculator button {
+        width: 50%;
+    }
+
+    #ageField {
+        width: 100%;
+        margin: auto;
+    }
+}
